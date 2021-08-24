@@ -1,0 +1,7 @@
+{
+  "name": "Calculation in a dictionary",
+  "description": "Construct  a program that calculate each student’s average score.",
+  "instructions": "No instructions given.",
+  "initial": "studentdict = {\"Lily\": [90,100,100,85],\"Anna\": [88,87,99,100]}\nfor item in studentdict.items():\n   name=item[0]\n   scores=item[1]\n   total=0\n   for score in scores:\n      total+=score\n   ave = total/len(scores)\n   print(\"The average score of\",name, \"is\",ave)"
+}
+   
