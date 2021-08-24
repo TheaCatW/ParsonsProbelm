@@ -4,4 +4,3 @@
   "instructions": "No instructions given.",
   "initial": "class Student():\n   def __init__(self, name):\n       self.name=name\n   def getName(self):\n      return self.name\nclass Score(Student):\n   def __init__(self, name, score):\n      self.score=score\n      Student.__init__(self,name)\n\n   def getScore(self):\n      return self.score\nstudent = Score(\"John\", 85)\nprint(\"The student is\",student.getName(),\"; his math score is\",student.getScore())"
 }
-    
