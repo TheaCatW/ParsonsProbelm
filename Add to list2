@@ -1,0 +1,7 @@
+{
+  "name": "Add to list 2",
+  "description": "Construct  a program that print the added list",
+  "instructions": "No instructions given.",
+  "initial": "def add(alist,k):\n    for i in range(k):\n        alist.append(k)\n        k=k+1\nlist=[1,2,3,4]\nadd(list,5)\nprint(list)"
+}
+    
