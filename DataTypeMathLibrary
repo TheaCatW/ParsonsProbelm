@@ -1,0 +1,6 @@
+{
+  "name": "MathLibrary",
+  "description": "Construct a program that accesses pi and check its type",
+  "instructions": "No instructions given.",
+  "initial": "import math\na = math.pi\nprint(type(a) is int)"
+}
