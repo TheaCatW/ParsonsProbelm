@@ -1,0 +1,7 @@
+{
+  "name": "NestedLoop 2",
+  "description": "Construct a program to print a multiplication table",
+  "instructions": "No instructions given.",
+  "initial": "for i in range(1, 11):\n    for j in range(1, 11):\n        print(i * j, end=\" \")\n    print()"
+}
+  
