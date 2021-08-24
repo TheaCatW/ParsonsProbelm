@@ -1,0 +1,6 @@
+{
+  "name": "MathLibrary2",
+  "description": "Construct a program that computes the variables reminder and checks the reminder's type",
+  "instructions": "No instructions given.",
+  "initial": "import math\na = 7.0\nb = 5.0\nc = a%b\nprint(type(c))"
+}
