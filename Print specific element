@@ -1,0 +1,6 @@
+{
+  "name": "Print specific elemen",
+  "description": "Construct a program that print a blue Toyota car.",
+  "instructions": "No instructions given.",
+  "initial": "cardict = {\"brand\": [\"Ford\",\"Lexis\",\"Toyota\"],\"electric\": [False, True],\"year\": [2020, 2021, 2019],\"colors\": [\"red\", \"white\", \"blue\"]}\ncar = cardict[\"brand\"]\ncolor = cardict[\"colors\"]\nprint(\"The car\"s brand is\", car[2],\"and it is\",color[2] )"
+}
