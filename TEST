@@ -1,0 +1,8 @@
+{
+  "name": "Parsons Problem-Printing specific elements",
+  "description": "Construct a problem that print the third element in each line",
+  "instructions": "No instructions given.",
+  "VARTEST": "",
+  "type": "VARTEST",
+  "initial": "try:\n   myfile=open(filename, \"r\")\n   linenum=1\n   for line in myfile:\n      words = line.split()\n      word=words[2]\n      print(\"The third work in line\",linenum,\"is\",word)\n      linenum+=1\nexcept OSError:\n   print(\"Error reading the file.\")"
+}
