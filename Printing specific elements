@@ -1,4 +1,4 @@
-  "ps_python_conditionals_temperature": {
+{
     "description": "",
     "instructions": "Construct a program that prints out 'Cold', when the temperature is 15 degrees celcius or below, 'Moderate' when it is over 15 degrees but no more than 25 degrees, and 'Hot' when the temperature is over 25 degrees.",
     "initial": "if temperature  $$toggle::<::>::<=::>=$$ $$toggle::15::25$$:\nif temperature  $$toggle::<::>::<=::>=$$ $$toggle::15::25$$:\nprint(\"Cold\")\nelif temperature $$toggle::<::>::<=::>=$$ $$toggle::15::25$$:\nprint(\"Moderate\")\nelse:\nprint(\"Hot\")\n",
