@@ -1,0 +1,6 @@
+{
+  "name": "Stack",
+  "description": "Construct a program that creates a Stack Structure",
+  "instructions": "Construct a program that creates two functions in a  Stack Structure. The first one is "push" function and the second one is "pop" fucntion. Your pop function should also check if the current stack is empty. is_empty() is a predefined function.",
+  "initial": "def push(self, item):\n  self.items.insert(0, item)\ndef pop(self):\n  if self.is_empty():\n    print(\"error stack is empty\")\n  else:\n    return self.items.pop(0)"
+}
